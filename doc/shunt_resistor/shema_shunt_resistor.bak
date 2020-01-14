@@ -1,0 +1,69 @@
+EESchema Schematic File Version 2
+LIBS:LFbutton
+LIBS:LFcapitors
+LIBS:LFcomponents
+LIBS:LFconnectors
+LIBS:LFdiod
+LIBS:LFpower
+LIBS:LFresistor
+LIBS:LFtransformator
+LIBS:LFtransistor
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RESISTOR R1
+U 1 1 5CBF26FC
+P 4150 3650
+F 0 "R1" H 4300 3850 71  0000 C CNN
+F 1 "AH-25, 25Вт, 0.1 Ом, 5%" H 4300 3750 71  0000 C CNN
+F 2 "" H 4150 3650 60  0000 C CNN
+F 3 "" H 4150 3650 60  0000 C CNN
+	1    4150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PIN_F_2 X2
+U 1 1 5CBF27E7
+P 6050 3650
+F 0 "X2" H 6200 3850 50  0000 L BNN
+F 1 "PIN_F_2" H 6100 3750 50  0000 L BNN
+F 2 "" H 6500 3800 50  0001 C CNN
+F 3 "" H 6050 3650 60  0000 C CNN
+	1    6050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PIN_F_3 X2
+U 1 1 5CBF2883
+P 3250 3600
+F 0 "X2" H 3400 3800 50  0000 L BNN
+F 1 "PIN_F_3" H 3300 3700 50  0000 L BNN
+F 2 "" H 3700 3750 50  0001 C CNN
+F 3 "" H 3250 3600 60  0000 C CNN
+	1    3250 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CAPITORS C?
+U 1 1 5CBF2930
+P 5600 2850
+F 0 "C?" H 5725 3125 71  0000 C CNN
+F 1 "CAPITORS" H 5725 3025 71  0000 C CNN
+F 2 "" H 5600 2850 60  0000 C CNN
+F 3 "" H 5600 2850 60  0000 C CNN
+	1    5600 2850
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

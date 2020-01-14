@@ -1,0 +1,102 @@
+EESchema Schematic File Version 2
+LIBS:LFbutton
+LIBS:LFcapitors
+LIBS:LFcomponents
+LIBS:LFconnectors
+LIBS:LFdiod
+LIBS:LFpower
+LIBS:LFresistor
+LIBS:LFtransformator
+LIBS:LFtransistor
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RESISTOR R1
+U 1 1 5CBF26FC
+P 4300 3650
+F 0 "R1" H 4450 3850 71  0000 C CNN
+F 1 "AH-25, 25Вт, 0.1 Ом, 5%" H 4450 3750 71  0000 C CNN
+F 2 "" H 4300 3650 60  0000 C CNN
+F 3 "" H 4300 3650 60  0000 C CNN
+	1    4300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PIN_F_2 X2
+U 1 1 5CBF27E7
+P 7450 3650
+F 0 "X2" H 7700 3850 50  0000 L BNN
+F 1 "DG126-5.0-02P-14" H 7350 3750 50  0000 L BNN
+F 2 "" H 7900 3800 50  0001 C CNN
+F 3 "" H 7450 3650 60  0000 C CNN
+	1    7450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PIN_F_3 X1
+U 1 1 5CBF2883
+P 3400 3650
+F 0 "X1" H 3550 3850 50  0000 L BNN
+F 1 "DG126-5.0-03P-14" H 3250 3750 50  0000 L BNN
+F 2 "" H 3850 3800 50  0001 C CNN
+F 3 "" H 3400 3650 60  0000 C CNN
+	1    3400 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CAPITORS C1
+U 1 1 5CBF2930
+P 6150 3650
+F 0 "C1" H 6275 3925 71  0000 C CNN
+F 1 "EPCOS B32524Q6105J000, 1мк 400В" H 6275 3825 71  0000 C CNN
+F 2 "" H 6150 3650 60  0000 C CNN
+F 3 "" H 6150 3650 60  0000 C CNN
+	1    6150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPITORS C2
+U 1 1 5CBF2D51
+P 6150 4100
+F 0 "C2" H 6275 4375 71  0000 C CNN
+F 1 "EPCOS B32524Q6105J000, 1мк 400В" H 6275 4275 71  0000 C CNN
+F 2 "" H 6150 4100 60  0000 C CNN
+F 3 "" H 6150 4100 60  0000 C CNN
+	1    6150 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3650 7450 3650
+Wire Wire Line
+	6400 4100 7350 4100
+Wire Wire Line
+	7350 4100 7350 3750
+Wire Wire Line
+	7350 3750 7450 3750
+Wire Wire Line
+	6150 3650 4550 3650
+Wire Wire Line
+	6150 4100 4200 4100
+Wire Wire Line
+	4200 4100 4200 3650
+Wire Wire Line
+	3400 3650 4300 3650
+Connection ~ 4200 3650
+Wire Wire Line
+	3400 3850 4650 3850
+Wire Wire Line
+	4650 3850 4650 3650
+Connection ~ 4650 3650
+$EndSCHEMATC
